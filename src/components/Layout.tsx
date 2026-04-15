@@ -5,11 +5,15 @@ const navItems = [
   { path: '/string', label: '文字列バリデーション' },
   { path: '/number', label: '数値バリデーション' },
   { path: '/object', label: 'オブジェクト' },
+  { path: '/object-methods', label: 'Object メソッド' },
   { path: '/array', label: '配列' },
   { path: '/union', label: 'Union型' },
   { path: '/optional', label: 'Optional / Nullable' },
   { path: '/enum', label: 'Enum' },
   { path: '/transform', label: 'Transform & Refine' },
+  { path: '/default', label: 'Default' },
+  { path: '/effects', label: 'ZodEffects' },
+  { path: '/intersection', label: 'Intersection' },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {

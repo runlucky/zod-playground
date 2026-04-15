@@ -49,6 +49,30 @@ const features = [
     description: '.transform() でデータ変換、.refine() でカスタムバリデーション',
     icon: '⚙️',
   },
+  {
+    path: '/object-methods',
+    title: 'Object メソッド',
+    description: '.extend() / .pick() / .omit() / .partial() / .passthrough() / .strict()',
+    icon: '🔧',
+  },
+  {
+    path: '/default',
+    title: 'Default',
+    description: '.default() でデフォルト値の自動適用・動的生成を体験',
+    icon: '🏷️',
+  },
+  {
+    path: '/effects',
+    title: 'ZodEffects',
+    description: '.preprocess() / .pipe() / .transform() チェーンなど高度な変換',
+    icon: '🔄',
+  },
+  {
+    path: '/intersection',
+    title: 'Intersection',
+    description: 'z.intersection() / .and() で複数スキーマの合成',
+    icon: '🔗',
+  },
 ];
 
 export default function Home() {
